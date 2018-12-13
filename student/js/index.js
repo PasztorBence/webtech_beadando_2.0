@@ -8,7 +8,7 @@
 
         $("#carsButton").click(function () {
             $("#content").load("html/cars.html", function () {
-                getCars2();
+                getCars();
                 $("#addCarBtn").click(function () {
                     addCar();
                 });
